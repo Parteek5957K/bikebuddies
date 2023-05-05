@@ -1,0 +1,289 @@
+body {
+    background: url(BACKGROUND.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
+  
+  header {
+      background-color: #a8c5d4;
+      color: #fff;
+      padding: 10px;
+  }
+  .LOGIN_WORD
+  {
+      background-color: white;
+      color: #2d80a9;
+      border: none;
+      width: 150px;
+      height: 50px;
+      border-radius: 25px;
+      transition: 0.25s;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+      font-size: larger;
+      margin-left: 350px;
+      margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  a
+  {
+      color: #2d80a9;
+      text-decoration: none;
+  }
+  a:hover
+  {
+      color: white;
+  }
+  .LOGIN_WORD:hover
+  {
+      background-color: #77badc;
+      color: white;
+  }
+  .LOGIN_WORD:active
+  {
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+  .C1
+  {
+      background-color: #2d80a9;
+      background: none;
+      color: white;
+      font-size: 15px;
+      border: none;
+      margin-left: 20px; 
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 0px;
+  
+  }
+  .C1:hover
+  {
+      text-decoration: underline;
+      cursor:pointer;
+  }
+  .BE_A_VOL
+  {
+      background-color: #333;
+      color: white;
+      font-size: 15px;
+      border: none;
+      margin-left: 530px; 
+      font-weight: bold;
+      margin-bottom: 0px;
+      background: none;
+      margin-top: 50px;
+  }
+  .BE_A_VOL:hover
+  {
+      text-decoration: underline;
+      cursor:pointer;
+  }
+  .i1
+  {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+  }
+  h1
+  {
+      margin-top: 0px;
+      font-family: cursive;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+  }
+  
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  section.banner {
+      background-image: url('banner.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 0px;
+  }
+  
+  .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #929a9e;
+      color: #ba4a4a;
+      text-decoration: none;
+      border: none;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    margin-right: 1rem;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 1rem;
+    flex-grow: 0.2;
+    height: 25px;
+    margin-top: 0px;
+  }
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #2d80a9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 0px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2d80a9;
+    opacity: 0.7;
+  }
+  
+  select {
+    padding-top: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .B
+  {
+    margin-top: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #2d80a9;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: white;
+  }
+  
+  footer {
+    background-color: #2d80a9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .container {
+    background-color: #2d80a9;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-left: 480px;
+    margin-bottom: 50px;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .subscription-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .option {
+    flex-basis: 300px;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .option h2 {
+    font-size: 24px;
+    color: black;
+  }
+  
+  .option p {
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .btn-subscribe {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .btn-subscribe:hover {
+    background-color:#0056b3;
+  }
+  .contact
+  {
+    margin-left: 20px;
+    color: black;
+  }
+  .contact1
+  {
+    margin-left: 40px;
+    color: black;
+  }
+  .White
+  {
+    color: black;
+  }
+.space
+{
+  margin-top: 100px;
+}
